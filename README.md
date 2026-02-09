@@ -38,21 +38,26 @@ There are various enemies that can cause the player to lose and reset a level.
    * Patrols a zone
    * Travels only horizontally or vertically
    * Resets the level upon any collision with the scroller
-
+ 
 https://github.com/user-attachments/assets/fd0f0306-4565-4999-8b23-c7758db62256
-
  
 * Gog (green alien dog):
    * Patrols a zone
    * Travels horizontally
    * Becomes inactive if the player lands on top of it
    * Resets the level if the scroller collides with its sides or bottom
+ 
+https://github.com/user-attachments/assets/96480dfd-77b9-451d-86fd-b747f6f7defa
+
 * Cactus:
    * Initially patrols a zone
    * Increases speed in the direction of the player when the player enters its range
    * Decreases speed and returns to its initial patrol zone when the player exits its range
    * Collides with walls and platforms
    * Resets the level upon any collision with the scroller
+
+https://github.com/user-attachments/assets/4bc09dba-4dd5-4f47-92a9-afb362005e02
+
 * Cat Boss:
   * Periodically switches between patrolling, jumping, and dashing, unless it was recently stomped
   * Switches to a limited time invulnerable sped up state after being stomped
@@ -65,9 +70,7 @@ https://github.com/user-attachments/assets/fd0f0306-4565-4999-8b23-c7758db62256
     * Active when the boss is preparing to dash or jump
     * Active when the boss is dashing  
 
-**See level 4 of the "Playthroughs" section for the Cat Boss.**
-  
-PUT ENEMY IMAGES HERE
+**See level 4 of the "Playthroughs" section for the Cat Boss demo.**
 
 --------------------
 
@@ -93,106 +96,17 @@ BREAKABLE PLATFORM IMAGE
 
 --------------------
 
-### Playthroughs 
+## Playthroughs 
 
-LEVEL 1 PLAYTHROUGH
-
-LEVEL 2 PLAYTHROUGH
-
-LEVEL 3 PLAYTHROUGH
-
-LEVEL 4 PLAYTHROUGH
+### Level 1
 
 
+### Level 2 
+
+### Level 3
+
+### Level 4 (Boss Fight)
+
+https://github.com/user-attachments/assets/7d611c95-b432-48d9-999c-4c31e92126a9
 
 
-
-[//]: # (## Team Bridgeforth's special features)
-
-[//]: # ()
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (1. New stompable enemy)
-
-[//]: # (    * Added new green dog enemy that patrols back and forth. )
-
-[//]: # (    * Upon stomp, the enemy dies.)
-
-[//]: # ()
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (2. New chaser enemy )
-
-[//]: # (    * Added new cactus enemy that turns hostile once the player enters its range.)
-
-[//]: # (    * The cactus turns red indicating it is hostile. Once the player is far enough, the cactus stops chasing.)
-
-[//]: # ()
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (3. New boss enemy)
-
-[//]: # (    * Added new boss enemy for level 4. The boss has three patterns.)
-
-[//]: # (    * Every couple second the boss will go into "preparation" state for a few seconds before performing one of the following actions:)
-
-[//]: # (      * A high jump in the direction of the player)
-
-[//]: # (      * A dash toward the player)
-
-[//]: # (    * The boss is invulnerable while it is in the "preparation" state.)
-
-[//]: # (    * It takes three stomps for the boss to die.)
-
-[//]: # (    * The boss alternates dashes and jumps.)
-
-[//]: # (    * When the player stomps on the boss, it enters an enraged mode, and is temporarily invulnerable.)
-
-[//]: # ()
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (4. New level 4)
-
-[//]: # (    * Added new hidden level 4, reachable when the player collides with the door sprite in level 3.)
-
-[//]: # (    * Boss fight level, where the player must fight the boss in order to complete the game.)
-
-[//]: # (    * Once the boss is defeated, the goal post will spawn in allowing the player to enter and end the game.)
-
-[//]: # (    * Level 4 is an optional level. Player does not have to go through level 4 in order to beat level 3.)
-
-[//]: # (   )
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (5. New double jump power up)
-
-[//]: # (    * Added new double jump power up. )
-
-[//]: # (    * Collecting the power up will grant the player the ability to double jump for a limited time &#40;15 seconds&#41;.)
-
-[//]: # (   )
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (6. New breakable platform)
-
-[//]: # (    * Added new breakable platform.)
-
-[//]: # (    * When the player steps on the breakable platform, it will start the "breaking" sequence.)
-
-[//]: # (    * The platform disappears after a set time period.)
-
-[//]: # (   )
-[//]: # (--------------------)
-
-[//]: # ()
-[//]: # (7. New player sprite)
-
-[//]: # (    * Added new basketball sprite for the player.)
-
-[//]: # (    * When the player enters the hidden level, the player sprite &#40;the football&#41; will turn into a basketball sprite.)
