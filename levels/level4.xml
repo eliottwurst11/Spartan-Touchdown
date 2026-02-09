@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level width="4096" height="1024" start-y="900" start-x="0">
+	<declarations>
+		<background id="i001" image="background_4.png"/>
+		<background id="i002" image="background_4_flipped.png"/>
+		<platform id="i003" left-image="grassLeft.png" mid-image="grassMid.png" right-image="grassRight.png"/>
+		<platform id="i005" left-image="metalLeft.png" mid-image="metalMid.png" right-image="metalRight.png"/>
+		<wall id="i006" image="wall1.png"/>
+		<wall id="i007" image="wall2.png"/>
+		<enemy-boss id="i009" image="cat_right.png"/>
+		<goalpost id="i011" image="goalpost.png"/>
+	</declarations>
+	<items>
+		<background id="i001" x="0" y="512"/>
+		<background id="i002" x="1920" y="512"/>
+		<background id="i002" x="-1920" y="512"/>
+
+		<platform id="i005" x="0" y="1008" width="1600" height="32"/>
+		<enemy-boss id="i009" x="320" y="800"/>
+
+		<wall id="i007" x="800" y="512" width="32" height="1024"/>
+		<wall id="i007" x="-800" y="512" width="32" height="1024"/>
+
+	</items>
+</level>
+
