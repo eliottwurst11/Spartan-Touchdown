@@ -9,15 +9,20 @@ Developers:
 * ***Hamin Paik***  
 * ***Eliott Wurst***
 
-Spartan Touchdown is a 2D Michigan State University (MSU) themed scroller and platformer video game developed for MSU's Object-oriented Software Design CSE 335 class. The project was completed over about a 4 to 5-week period using a method like scrum to keep our team on track. We used twice per week sprint meetings to explore design ideas, our
-implementation, planning, and assignment of coding tasks, which kept our team on track. The final product was a fun game with interesting challenges and power-ups that won our team 3rd place out of the class's roughly 50 teams.
+![level3](https://github.com/user-attachments/assets/0584469c-11e0-4cbd-afc7-0d5b61a961d3)
+
+Spartan Touchdown is a 2D Michigan State University (MSU) themed scroller and platformer video game developed for MSU's Object-oriented Software Design CSE 335 class. The project was completed over about a 4 to 5-week period using a method like scrum to keep our team on track. We used twice per week sprint meetings to explore design ideas, our implementation, planning, and assignment of coding tasks, which kept our team on track. The final product was a fun game with interesting challenges and power-ups that won our team 3rd place out of the class's roughly 50 teams.
+
+Our most important tools included the C++ programming for implementation the wxWidgets libraries for GUI interactivity, and CMake for building the executable for Windows and macOS. We used a shared GitLab repository for edits throughout the project. We also used the MSU CSE335 course webpage, lectures, and style guidelines for help, especially with regards to the principles of good Object-oriented design that was the groundwork of the project.
 
 --------------------
 
 ### Gameplay
 The game is played using the left and right arrow keys to move the scroller left and right, and the space bar to perform a jump. The scroller collides with all platforms and walls it touches. By collecting coins in a level, the player can increase their score. The player loses and the level is reset if the player falls out of the level or is defeated by an enemy. The player wins and moves to the next level if the player collides with the level's goalpost.
 
-PUT DEMO/VIDS/IMAGES HERE
+To travel through the level, the player must jump between platforms and walls. Most platforms and walls can be stood on
+or rammed into. There is one special type of platform, the breakable platform, which is deleted after its timer runs
+out (2 seconds). The timer starts once the player has landed on the breakable platform.
 
 --------------------
 
@@ -27,8 +32,6 @@ being snowy, the second in a forest, the third in the mountains, and the fourth 
 
 Levels can be automatically traversed by starting at level 1 and reaching the goalpost in each level. They can also be manually 
 selected using the "Levels" tab in the toolbar.
-
-![level3](https://github.com/user-attachments/assets/0584469c-11e0-4cbd-afc7-0d5b61a961d3)
 
 --------------------
 
@@ -87,26 +90,26 @@ PUT POWERUP IMAGES HERE
 
 --------------------
 
-### Level Traversal
-To travel through the level, the player must jump between platforms and walls. Most platforms and walls can be stood on
-or rammed into. There is one special type of platform, the breakable platform, which is deleted after its timer runs
-out (2 seconds). The timer starts once the player has landed on the breakable platform.
-
-BREAKABLE PLATFORM IMAGE
-
---------------------
-
 ## Playthroughs 
 
-### Level 1
+### Level 1:
 
+https://github.com/user-attachments/assets/5c715c3e-c94e-40e9-8411-b21d29e42998
 
-### Level 2 
+### Level 2:
 
-### Level 3
+https://github.com/user-attachments/assets/d212c556-9c7f-4402-9c9b-87effa549f86
 
-### Level 4 (Boss Fight)
+### Level 3:
+
+https://github.com/user-attachments/assets/329153f3-6e76-498b-98df-7a10acc81b61
+
+### Level 4 (Boss Fight):
 
 https://github.com/user-attachments/assets/7d611c95-b432-48d9-999c-4c31e92126a9
 
 
+--------------------
+## *Attribution*
+
+The project was developed by Eliott Wurst, Beckham Lee, Matthew Lopez, Nishit Nagpal, and Hamin Paik. We used the C++ programming language, the C++ wxWidgets GUI libraries, and CMake for building. We also used a GitLab repository shared between us for development. For assistance regarding good Object-oriented Design principles, coding style choices, and documentation style, we consulted the MSU CSE335 webpage that was available to students in the course.
