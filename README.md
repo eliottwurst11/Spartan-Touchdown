@@ -35,8 +35,16 @@ selected using the "Levels" tab in the toolbar.
 
 --------------------
 
-### Enemies
-There are various enemies that can cause the player to lose and reset a level.
+## Enemies
+
+There are various enemies that can cause the player to lose and reset a level:
+
+<img width="109" height="93" alt="leprechaun" src="https://github.com/user-attachments/assets/8dc7e072-5c61-487d-b218-9d433dde0481" />
+<img width="87" height="87" alt="wolverine" src="https://github.com/user-attachments/assets/6329be77-9ddf-499b-9ed1-efe8b15c0d02" />  
+<img width="108" height="105" alt="gog" src="https://github.com/user-attachments/assets/fc52c563-d0c7-4e7d-9fbc-9024a6557207" />
+<img width="97" height="221" alt="cactus" src="https://github.com/user-attachments/assets/59cc2bbf-0715-409d-9b32-260b5bf558f6" />
+<img width="94" height="148" alt="boss" src="https://github.com/user-attachments/assets/9427d6f8-c529-4f04-990e-cfc5af0e7637" />
+
 * Green Leprechaun and Yellow Wolverine enemies:
    * Patrols a zone
    * Travels only horizontally or vertically
@@ -85,12 +93,14 @@ There are two powerups that the player can earn, which are activated by direct c
 * Double Jump:
    * The player can jump one extra time while suspended in air
    * Active for 15 seconds
+ 
 
-PUT POWERUP IMAGES HERE
+<img width="83" height="136" alt="points_doubler" src="https://github.com/user-attachments/assets/c9656a5b-5396-41f8-ab08-6e36315dcc51" />
+<img width="102" height="122" alt="double_jump" src="https://github.com/user-attachments/assets/f0a9e7dd-ecd5-4732-aa5d-1b6c077c3012" />
 
 --------------------
 
-## Playthroughs 
+# *Playthroughs*
 
 ### Level 1:
 
