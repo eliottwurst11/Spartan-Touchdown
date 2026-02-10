@@ -49,26 +49,17 @@ There are various enemies that can cause the player to lose and reset a level:
    * Patrols a zone
    * Travels only horizontally or vertically
    * Resets the level upon any collision with the scroller
- 
-https://github.com/user-attachments/assets/fd0f0306-4565-4999-8b23-c7758db62256
- 
 * Gog (green alien dog):
    * Patrols a zone
    * Travels horizontally
    * Becomes inactive if the player lands on top of it
    * Resets the level if the scroller collides with its sides or bottom
- 
-https://github.com/user-attachments/assets/96480dfd-77b9-451d-86fd-b747f6f7defa
-
 * Cactus:
    * Initially patrols a zone
    * Increases speed in the direction of the player when the player enters its range
    * Decreases speed and returns to its initial patrol zone when the player exits its range
    * Collides with walls and platforms
    * Resets the level upon any collision with the scroller
-
-https://github.com/user-attachments/assets/4bc09dba-4dd5-4f47-92a9-afb362005e02
-
 * Cat Boss:
   * Periodically switches between patrolling, jumping, and dashing, unless it was recently stomped
   * Switches to a limited time invulnerable sped up state after being stomped
@@ -80,6 +71,14 @@ https://github.com/user-attachments/assets/4bc09dba-4dd5-4f47-92a9-afb362005e02
   * Invulnerable state: any collision with the scroller resets the level
     * Active when the boss is preparing to dash or jump
     * Active when the boss is dashing  
+
+#### *Enemy Demos:*
+
+https://github.com/user-attachments/assets/fd0f0306-4565-4999-8b23-c7758db62256
+ 
+https://github.com/user-attachments/assets/96480dfd-77b9-451d-86fd-b747f6f7defa
+
+https://github.com/user-attachments/assets/3856973d-e0fd-4b4a-91a0-655b3c1a376c
 
 **See level 4 of the "Playthroughs" section for the Cat Boss demo.**
 
