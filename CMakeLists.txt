@@ -5,12 +5,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(APPLICATION_LIBRARY GameLib)
 
 # Request the required wxWidgets libs
-# Turn off wxWidgets own precompiled header system, since
-# it doesn't seem to work. The CMake version works much better.
+# Turn off wxWidgets own precompiled header system
 set(wxBUILD_PRECOMP OFF)
 find_package(wxWidgets COMPONENTS core base xrc html xml REQUIRED)
 
-# Include the wxWidgets use file to initialize various settings
+# Include the wxWidgets use file; initializes settings
 include(${wxWidgets_USE_FILE})
 
 # ===================================================================
