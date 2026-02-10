@@ -9,29 +9,24 @@ Developers:
 * ***Hamin Paik***  
 * ***Eliott Wurst***
 
+#
+
 ![level3](https://github.com/user-attachments/assets/0584469c-11e0-4cbd-afc7-0d5b61a961d3)
 
-Spartan Touchdown is a 2D Michigan State University (MSU) themed scroller and platformer video game developed for MSU's Object-oriented Software Design CSE 335 class. The project was completed over about a 4 to 5-week period using a method like scrum to keep our team on track. We used twice per week sprint meetings to explore design ideas, our implementation, planning, and assignment of coding tasks, which kept our team on track. The final product was a fun game with interesting challenges and power-ups that won our team 3rd place out of the class's roughly 50 teams.
+**Spartan Touchdown** is a 2D Michigan State University (MSU) themed scroller game. It was completed using Object-oriented Design principles, the C++ programming language, the wxWidgets libraries for GUI interactivity, CMake for Windows and macOS executable building, and a GitLab repository shared among our team members.
 
-Our most important tools included the C++ programming for implementation the wxWidgets libraries for GUI interactivity, and CMake for building the executable for Windows and macOS. We used a shared GitLab repository for edits throughout the project. We also used the MSU CSE335 course webpage, lectures, and style guidelines for help, especially with regards to the principles of good Object-oriented design that was the groundwork of the project.
+The project was developed for MSU's Object-oriented Software Design (CSE335) class, and was completed over a 5-week period using a method like scrum to keep our team on track. We had twice weekly sprint meetings to explore design ideas, implement mechanics, assign coding tasks, and assess risks and shortcomings.
 
---------------------
-
-### Gameplay
-The game is played using the left and right arrow keys to move the scroller left and right, and the space bar to perform a jump. The scroller collides with all platforms and walls it touches. By collecting coins in a level, the player can increase their score. The player loses and the level is reset if the player falls out of the level or is defeated by an enemy. The player wins and moves to the next level if the player collides with the level's goalpost.
-
-To travel through the level, the player must jump between platforms and walls. Most platforms and walls can be stood on
-or rammed into. There is one special type of platform, the breakable platform, which is deleted after its timer runs
-out (2 seconds). The timer starts once the player has landed on the breakable platform.
+The final product was a fun game with interesting challenges, unique power-ups, and an entertaining boss-fight that won our team 3rd place out of the class's roughly 50 teams. 
 
 --------------------
 
 ### Levels
-There are 4 distinct levels, each with increasing difficulty. Each level has a unique style, with the first level
-being snowy, the second in a forest, the third in the mountains, and the fourth in space. Each level has a scorecard, which increases when a coin is collected, but decreases with the passage of time. Each level also has a stopwatch indicatinghow long the player has been in the level for. To beat a level, the player must make the scroller collide with the level's goalpost, which is at the end of the level.
+There are 4 distinct levels, each with increasing difficulty and unique style. Each level has a scorecard in the top right corner that increases as the player collects coins, but decreases with the passage of time. Each level also has a stopwatch, in the top left corner, that indicates how long the player has been in the level for. 
 
-Levels can be automatically traversed by starting at level 1 and reaching the goalpost in each level. They can also be manually 
-selected using the "Levels" tab in the toolbar.
+The game is played using the left and right arrow keys and the space bar to perform a jump. To beat a level, the player must make the scroller collide with the level's goalpost at the end.
+
+Levels can be automatically traversed if the player starts at level 1 and reaches the goalpost in each level, or manually selected using the "Levels" tab in the toolbar.
 
 --------------------
 
@@ -43,24 +38,24 @@ There are various enemies that can cause the player to lose and reset a level:
 <img width="87" height="87" alt="wolverine" src="https://github.com/user-attachments/assets/6329be77-9ddf-499b-9ed1-efe8b15c0d02" />  
 <img width="108" height="105" alt="gog" src="https://github.com/user-attachments/assets/fc52c563-d0c7-4e7d-9fbc-9024a6557207" />
 <img width="97" height="221" alt="cactus" src="https://github.com/user-attachments/assets/59cc2bbf-0715-409d-9b32-260b5bf558f6" />
-<img width="94" height="148" alt="boss" src="https://github.com/user-attachments/assets/9427d6f8-c529-4f04-990e-cfc5af0e7637" />
+<img width="94" height="148" alt="boss" src="https://github.com/user-attachments/assets/9427d6f8-c529-4f04-990e-cfc5af0e7637" />  
 
-* Green Leprechaun and Yellow Wolverine enemies:
+* **Green Leprechaun** and **Yellow Wolverine** enemies:
    * Patrols a zone
    * Travels only horizontally or vertically
    * Resets the level upon any collision with the scroller
-* Gog (green alien dog):
+* **Gog** (green alien dog):
    * Patrols a zone
    * Travels horizontally
    * Becomes inactive if the player lands on top of it
    * Resets the level if the scroller collides with its sides or bottom
-* Cactus:
+* **Cactus**:
    * Initially patrols a zone
    * Increases speed in the direction of the player when the player enters its range
    * Decreases speed and returns to its initial patrol zone when the player exits its range
    * Collides with walls and platforms
    * Resets the level upon any collision with the scroller
-* Cat Boss:
+* **Cat Boss**:
   * Periodically switches between patrolling, jumping, and dashing, unless it was recently stomped
   * Switches to a limited time invulnerable sped up state after being stomped
   * Invulnerable while it is preparing to switch states
@@ -80,16 +75,18 @@ https://github.com/user-attachments/assets/96480dfd-77b9-451d-86fd-b747f6f7defa
 
 https://github.com/user-attachments/assets/3856973d-e0fd-4b4a-91a0-655b3c1a376c
 
-**See level 4 of the "Playthroughs" section for the Cat Boss demo.**
+--------------------
+
+***See level 4 of the "Playthroughs" section for the Cat Boss demo.***
 
 --------------------
 
 ### Powerups
-There are two powerups that the player can earn, which are activated by direct collision between the scroller and powerup sprite.
-* Spartan Points Doubler:
+There are two powerup types that the player can activate by colliding the scroller with a powerup sprite.
+* **Spartan Points Doubler**:
    * All coin values are doubled
    * Active for the remainder of the level after activation
-* Double Jump:
+* **Double Jump**:
    * The player can jump one extra time while suspended in air
    * Active for 15 seconds
  
