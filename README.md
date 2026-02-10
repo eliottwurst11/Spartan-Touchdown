@@ -99,7 +99,7 @@ There are two powerups that the player can earn, which are activated by direct c
 
 --------------------
 
-# *Playthroughs*
+# Playthroughs
 
 ### Level 1:
 
