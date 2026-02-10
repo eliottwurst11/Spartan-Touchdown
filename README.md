@@ -17,7 +17,7 @@ Developers:
 
 The project was developed for MSU's Object-oriented Software Design (CSE335) class, and was completed over a 5-week period using a method like scrum to keep our team on track. We had twice weekly sprint meetings to explore design ideas, implement mechanics, assign coding tasks, and assess risks and shortcomings.
 
-The final product was a fun game with interesting challenges, unique power-ups, and an entertaining boss-fight that won our team 3rd place out of the class's roughly 50 teams. 
+The final product was a fun game with interesting challenges, unique power-ups, and an entertaining boss fight that won our team 3rd place out of the class's roughly 50 teams. 
 
 --------------------
 
